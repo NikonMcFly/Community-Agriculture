@@ -1,0 +1,54 @@
+body {
+  text-indent: 20px;
+  word-spacing: 3px;
+  line-height: 1.5em;
+}
+
+stock-graph {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  align-content: center;
+}
+.header {
+  text-align: center;
+}
+.food-page {
+  font-family: 'Droid Serif', serif;
+  font-size: 18px;
+  margin: 100px;
+}
+circ-graph {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+rect-graph {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.axis text {
+  font: 16pt sans-serif;
+  font-family: 'Poiret One', cursive;
+}
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+/*.x-axis {
+  font: 16pt sans-serif;
+  font-family: 'Poiret One', cursive;
+  background-color: blue;
+}*/
+
+.resources{
+  overflow: hidden;
+}
+/*ul {
+  list-style-type: none;
+}*/
+a {
+  text-decoration: none;
+}

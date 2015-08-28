@@ -1,0 +1,21 @@
+{
+  "name": "food",
+  "version": "0.0.0",
+  "authors": [
+    "nikonmcfly <nikonmcfly@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "~1.4.2",
+    "angular": "~1.4.2",
+    "d3": "~3.5.6",
+    "jquery": "~2.1.4"
+  }
+}
