@@ -41,7 +41,7 @@ app.directive('stockGraph', function(){
         .domain([0, d3.max(lineData, function (d){
           return d.sales;
         })])
-        .range([355, 0]);
+        .range([355, 0]); 
         // add ticks
       var xAxis = d3.svg.axis()
         .scale(xScale)
@@ -59,6 +59,10 @@ app.directive('stockGraph', function(){
         })
         .interpolate("basis");
 
+        //practice**********************************************************
+        var lineColor = d3.selectAll(yScale)
+          .append("svg");
+        console.log(lineColor);
 
       var svg = d3.select(element)
         .append("svg")
@@ -82,7 +86,7 @@ app.directive('stockGraph', function(){
         .attr("d", line(lineData))
         .attr("transform", "translate(" + 250 + "," + 50 + ")")
         .attr("stroke","blue")
-        .attr("stroke-width", 8)
+        .attr("stroke-width", 10)
         .attr("fill", "none")
         .attr("class", "path");
      }
